@@ -1,0 +1,425 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-1 {
+  background-image: url(./img/HeroImage\ \(2\).png);
+  width: 1440px;
+  height: 773px;
+  font-family: Bebas Neue;
+}
+.top {
+  display: flex;
+  margin-left: 118px;
+  margin-right: 118px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+.top-words {
+  display: flex;
+  gap: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+
+}
+
+.EN {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid{
+  size: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.slide-2{
+  background-color: #D8E4E9;
+  width: 1440px;
+  height: 500px ;
+  display: flex;
+  gap: 40px;
+  padding-top:65px ;
+  padding-bottom: 65px;
+  padding-left: 109px ;
+  padding-right: 109px;
+  font-family: Bebas Neue;
+
+}
+.image-1{
+  background-image: url(./img/1.png);
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 10px 10px   #9DB8DA inset, 10px 10px lightblue;
+}
+.image-2{
+  background-image: url(/img/2.png);
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ box-shadow: 10px 10px   #9DB8DA inset, 10px 10px lightblue;
+}
+.image-3{
+  background-image: url(/img/3.png);
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+box-shadow: 10px 10px   #9DB8DA inset, 10px 10px lightblue;
+}
+.image-4{
+  background-image: url(./img/4.png);
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+box-shadow: 10px 10px   #9DB8DA inset, 10px 10px lightblue;
+}
+.slide-3{
+  background-image: url(./img/Roadmap\ image.png);
+  width: 1440px;
+  height: 902px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+  
+}
+.ugtei-heseg{
+  width: 1442px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+}
+.words-3{
+  text-align: center;
+  
+ 
+}
+.day-1{
+  width:513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #EEE9D9;
+  margin-top:30px ;
+  margin-left: 120px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+ border: 3px solid transparent;
+}
+.day-2{
+  width:513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #8BB8C1CC;
+  margin-top:30px ;
+   margin-left: 30px;
+
+}
+.day-3{
+  width:513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #AAD8D7CC;
+  margin-top:30px ;
+   margin-left: 30px;
+}
+.day-4{
+  width:513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #8BC0BDCC;
+  margin-top:30px ;
+   margin-left: 30px;
+}
+.day-5{
+  width:513px;
+  height: 112px;
+  border-radius: 120px;
+  background-color: #97CCE0CC;
+  margin-top:30px ;
+   margin-left: 30px;
+}
+.days{
+ gap:20px ;
+ 
+
+}
+.dundliinheseg{
+  
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 24px;
+  font-family: Inter;
+
+
+}
+.img-1{
+  width: 15px;
+  height: 15px;
+}
+.DAY1{
+  background-color: #F7F6F3; 
+  width: 52px; 
+  height: 52px; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+words-5{
+  font-size: 12px;
+  font-weight: 400px;
+}
+.wordstyle{
+  font-weight: 500; 
+  font-size: 24px;
+}
+.daysleft{
+  display: flex;
+  flex-direction: column;
+}
+.negdeh{
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+  background-color:#FAFBFC ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 24px;
+  
+}
+.deedlinheseg{
+  display: flex;
+  gap:16px ;
+  align-items: center;
+  
+}
+.hoyrdohheseg{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  }
+  .textdotro{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    gap:16px ;
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    
+   
+  
+
+  }
+  .hamgiindoor{
+    width: 336px; height: 48px; background-color: #A4D1E2; border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.slide-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(./img/Price&Footer\ image.png);
+  width: 1440px;
+  height: 1120px;
+
+  
+
+}
+.smdotor{
+  width: 167px;
+height: 44px;
+background-color:#FAFBFC ;
+border-radius:24px ;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.socialmedia{
+  display: flex;
+  gap: 20px;
+
+}
+.doodliinheseg{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   padding-left: 120px;
+   padding-right: 120px;
+}
+.deedliinug{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+
+}
+.zurag1{
+  position: absolute;
+  background-image:url(./Frame\ 176.png);
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  top: 270px;
+  right: 140px;
+  opacity: 0;
+  background-position: center;
+
+}
+.zurag2{
+  position: absolute;
+  background-image: url(./Frame\ 177.png);
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  top: 220px;
+  right: 340px;
+  opacity: 0;
+  background-position: center;
+}
+.zurag3{
+  position: absolute;
+  background-image: url(./11111.png);
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  top: 260px;
+  right: 380px;
+  opacity: 0;
+  background-position: center;
+}
+.zurag4{
+  position: absolute;
+  background-image: url(./Frame\ 178\ \(1\).png);
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  top: 200px;
+  right: 380px;
+  opacity: 0;
+  background-position: center;
+}
+.zurag5{
+  position: absolute;
+  background-image: url(./Frame\ 179.png);
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  top: 210px;
+  right: 360px;
+  opacity: 0;
+  background-position: center;
+}
+.daiy1:hover~.zurag1{
+  opacity: 1;
+}
+.daiy2:hover~.zurag2{
+  opacity: 1;
+}
+.daiy3:hover~.zurag3{
+  opacity: 1;
+}
+.daiy4:hover~.zurag4{
+  opacity: 1;
+}
+.daiy5:hover~.zurag5{
+  opacity: 1;
+}
+.day-1:hover{
+  cursor: pointer;
+  border-color: white;
+}
+.negdeh:hover{
+  box-shadow: 10px 10px rgb(68, 116, 156) inset, 10px 10px rgb(153, 190, 206);
+  cursor: pointer;
+
+}
+
+.negdeh:hover .hamgiindoor {
+  background-color: rgb(113, 142, 156);
+}
+.har{
+  position: absolute;
+  width: 275.49px;
+  height: 370px; background-color: #000000;
+  border-radius: 40px;
+  background-size: cover;
+  opacity: 0;
+}
+.image-1:hover .har{
+  opacity: 0.5;
+}
+.image-2:hover .har{
+  opacity: 0.5;
+}
+.image-3:hover .har{
+  opacity: 0.5;
+}
+.image-4:hover .har{
+  opacity: 0.5;
+}
