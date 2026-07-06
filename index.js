@@ -534,7 +534,17 @@ console.log(uppercase)
 
 
 // 1. FizzBuzz. Loop from 1 to 20 and print:
-
+for(let i=1; i<=20; i++){
+    if(i%3===0 && i%5===0){
+        console.log('FizzBuzz')
+    }else if(i%5===0){
+        console.log('Buzz')
+    } else if(i%3===0){
+        console.log('Fizz')
+    }else{
+        console.log(i)
+    }
+}
 //    "Fizz" if divisible by 3, "Buzz" if divisible by 5,
 //    "FizzBuzz" if divisible by BOTH, otherwise the number itself.
 //    Hint: check the BOTH case first.
@@ -600,12 +610,17 @@ console.log(largesteven)
 const arr = [1, 3, 5, 7, 9];
 let result = true
 for( let i=0; i<4; i++){
-    if(arr[i] < arr[i + 1]) { } else{
-        console.log(arr[i] , arr[i+1])
+    if(arr[i] < arr[i + 1]) { }
+    else{
         result = false
     }
 }
 console.log(result)
+//  1 3 
+// 3 5 
+// 5 7 
+//  7 9 
+
 
 // Expected: true
 // your code here
@@ -613,16 +628,22 @@ console.log(result)
 
 // 6. Find the SECOND largest number in the array and print it.
 const scores1 = [42, 17, 99, 23, 56];
-let largest1=scores1[1]
-let largest2=largest1[0]; scores1[0]
-for(i=0;i<5;i++){
-    if(largest1<scores1)
-        largest1=scores1;
-    (largest2<largest1 && largest2>scores1)
-    
-    
-    
+let largest1=scores1[0]
+let largest2=scores1[0]
 
+for(i=0;i<5;i++){
+    if(largest1 < scores1[i]) {
+
+        largest1=scores1[i];
+    }
+   
+}
+for (let i = 0; i < scores1.length; i++) {
+    if ( largest2 <largest1 && largest2 < scores1[i] && largest1 !== scores1[i]){
+       
+        largest2 = scores1[i]
+    }
+    
 }
 console.log(largest2)
 // Expected: 56
@@ -646,7 +667,13 @@ console.log(numbers)
 
 // 8. Find the longest word in the array and print it.
 const words = ["sun", "banana", "cat", "elephant", "dog"];
-let longest=
+let longest = words[0];
+for (let i = 1; i < words.length; i++) {
+  if (words[i].length > longest.length) {
+    longest = words[i];
+  }
+}
+console.log(longest);
 // Expected: elephant
 // your code here
 
@@ -654,6 +681,15 @@ let longest=
 // 9. Count vowels and consonants in the string (letters only).
 //    Print both counts.
 const text1 = "javascript";
+let text2=0
+let text3=0
+for(let i=0; i<text1.length; i++){
+    if(text1[i]==="a"|| text1[i]==="e" || text1[i]==='i'||text1[i]==='o'||text1[i]==='u'){
+        text2=text2+1
+    }else{text3=text3+1
+    }
+}
+console.log('vowels', text2, ',', 'consonants', text3)
 // Expected: vowels 3, consonants 7
 // your code here
 
@@ -661,5 +697,22 @@ const text1 = "javascript";
 // 10. Remove duplicates: build a NEW array containing each value
 //     only once, keeping first-seen order. Print it.
 const items1 = [1, 2, 2, 3, 4, 4, 4, 5];
+let items2 = [];
+
+for (let i = 0; i < 8; i++) {
+    let a = false
+    for(let j=0; j<items2.length; j++){
+        if(items2[j]===items1[i]){
+         a=true
+
+        }
+    }
+
+    if(a ===false){
+        items2.push(items1[i])
+    }
+} 
+console.log(items2)
+
 // Expected: [ 1, 2, 3, 4, 5 ]
 // your code here
